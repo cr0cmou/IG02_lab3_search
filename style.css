@@ -1,0 +1,4 @@
+html {
+    height: 100%; /* taille du html : 100% du viewport */
+    font-family:'Courier New', Courier, monospace;
+}
