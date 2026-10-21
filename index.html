@@ -8,8 +8,82 @@
 
     <body>
 
+        <main>
 
-        <script src="./converter.js"></script>
+            <h1 id="page_title">Students & Modules List</h1>
+
+            <div class="inputs">
+
+                <label id="name_search_label">Student name:
+
+                    <input
+                    id="name_input"
+                    type="text"
+                    name="name_input"
+                    >
+
+                </label>
+
+                <label id="module_search_label">Module:
+
+                    <input
+                    id="module_input"
+                    type="text"
+                    name="module_input"
+                    >
+
+                </label>
+
+            </div>
+
+            <ul id="students_list" class="students_list">
+
+                <li id="student1_li" class="student_li">
+                    <label id="student1_name" class="student_name">Léopold Le Maistre</label>
+                    <ul id="student1_modules_list" class="modules_list">
+                        <li class="ACCQ module_li">ACCQ</li>
+                        <li class="SE module_li">SE</li>
+                    </ul>
+                </li>
+
+                <li id="student2_li" class="student_li">
+                    <label id="student2_name" class="student_name">Jeanne Hartweg</label>
+                    <ul id="student2_modules_list" class="modules_list">
+                        <li class="SLR module_li">SLR</li>
+                        <li class="RIO module_li">RIO</li>
+                    </ul>
+                </li>
+
+                <li id="student3_li" class="student_li">
+                    <label id="student3_name" class="student_name">Marc Fuschino</label>
+                    <ul id="student3_modules_list" class="modules_list">
+                        <li class="GIN module_li">GIN</li>
+                        <li class="SE module_li">SE</li>
+                    </ul>
+                </li>
+
+                <li id="student4_li" class="student_li">
+                    <label id="student4_name" class="student_name">Malak Soutou</label>
+                    <ul id="student4_modules_list" class="modules_list">
+                        <li class="MACS module_li">MACS</li>
+                        <li class="MODS module_li">MODS</li>
+                    </ul>
+                </li>
+
+                <li id="student5_li" class="student_li">
+                    <label id="student5_name" class="student_name">Marc Fuschino</label>
+                    <ul id="student5_modules_list" class="modules_list">
+                        <li class="MACS module_li">MACS</li>
+                        <li class="MODS module_li">MODS</li>
+                    </ul>
+                </li>
+            
+            </ul>
+
+
+        </main>
+
+        <script src="./search.js"></script>
 
     </body>
 </html>

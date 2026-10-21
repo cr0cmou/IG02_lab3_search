@@ -1,4 +1,52 @@
 html {
     height: 100%; /* taille du html : 100% du viewport */
     font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    padding-top: 10vh;
+}
+
+#page_title {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    color: red;
+}
+
+.SE {
+    color: darkblue;
+}
+
+.ACCQ {
+    color: gray;
+}
+
+.SLR {
+    color: purple;
+}
+
+.RIO {
+    color: greenyellow;
+}
+
+.MODS {
+    color: darkgoldenrod; 
+}
+
+.MACS {
+    color: pink;
+}
+
+.GIN {
+    color: orangered;
 }
